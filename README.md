@@ -364,7 +364,7 @@ local Button =
 local Button = 
     ScriptTab:CreateButton(
         {
-            Name = "Reset coin for AS"
+            Name = "Reset coin forAS",
             Callback = function()
                 loadstring(game:HttpGeet("https://raw.githubusercontent.com/xpzrmodzz/Reset-for-coins-/main/README.md"))()
             end
